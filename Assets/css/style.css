@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+/* background color of the whole website */
 
 body {
     background-color: rgba(168, 125, 125, 0.797);
@@ -15,7 +16,7 @@ body {
     margin-right: auto;
     width: 100%;
 }
-
+/* the top strip */
 .header {
     padding: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -27,6 +28,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
+
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -56,6 +58,7 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* font and text info of the bottom text */
 
 a {
     font-size: 25px;
@@ -94,6 +97,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+
 
 .footer {
     padding: 30px;
