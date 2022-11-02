@@ -11,11 +11,65 @@ body {
    }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-image {
     width: 100%;
 }
+
+.aboutme {
+    display: flex;
+}
+
+.about-sec {
+    width: 20%;
+    border-right: 4px solid white;
+    text-align: right;
+    color: white;
+    margin-right: 15px;
+    padding-right: 5px;
+}
+
+.two-photos {
+    width: 40%;
+}
+
+.image-2 {
+    height: 275px;
+    width: 90%;
+}
+
+.image-3 {
+    height: 275px;
+    width: 90%;
+
+
+}
+
+.about-par {
+    width: 80%;
+}
+
+.par-1 {
+    width: 95%;
+}
+
+.section {
+    /* margin: 10px; */
+}
+
+.about-title {
+
+}
+
+.image-1 {
+    width: 95%;
+    height: 400px;
+}
+
 /* the top strip */
 .header {
     padding: 50px;
@@ -33,7 +87,6 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
 
 
 .header div {
