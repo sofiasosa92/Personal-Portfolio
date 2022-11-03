@@ -45,8 +45,24 @@ body {
 .image-3 {
     height: 275px;
     width: 90%;
+}
 
+.two-photos-1 {
+    width: 40%;
+    border-left: 4px solid white;
+    margin-left: 377px;
+    padding-left: 15px;
+}
 
+.two-photos-2 {
+    width: 40%;
+}
+
+.me {
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20%;
 }
 
 .about-par {
@@ -61,7 +77,26 @@ body {
     /* margin: 10px; */
 }
 
-.about-title {
+.navi {
+    position: relative;
+    top: 190px;
+
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.cell {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sub-title {
+    font-size: 35px;
 
 }
 
@@ -72,7 +107,9 @@ body {
 
 /* the top strip */
 .header {
-    padding: 50px;
+    /* padding: 50px; */
+    justify-content: space-between;
+    display:flex;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(153, 130, 130);
     color: #ffffff;
@@ -83,6 +120,10 @@ body {
     font-size: 48px;
 }
 
+.name {
+    position: relative;
+    bottom: 80px;
+}
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -97,14 +138,14 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* .header div ul {
     list-style-type: none;
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} */
 
 h2 {
     font-size: 30px;
