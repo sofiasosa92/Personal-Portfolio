@@ -58,6 +58,13 @@ body {
     width: 40%;
 }
 
+.project1 {
+    height: 300px;
+    width: 400px;
+    max-width: 400px;
+    object-fit: cover;
+}
+
 .me {
     width: 180px;
     height: auto;
